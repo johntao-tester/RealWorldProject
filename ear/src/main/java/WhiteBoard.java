@@ -64,7 +64,7 @@ public class WhiteBoard {
 
 
         System.out.println("Bla bla bla");
-
+        System.out.println("Ha ha ha");
 
     }
 
