@@ -62,7 +62,7 @@ public class WhiteBoard {
         System.out.println(fibSeq(fibSer));
         System.out.println("Bla bla bla");
         System.out.println("Ha ha ha");
-        System.out.println("Im a truck driver trum trum trum");
+        System.out.println("Im a truck driver tram tram tram");
     }
 
     public static int fibonacciRecurcive(int a) {
