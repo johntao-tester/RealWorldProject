@@ -55,29 +55,27 @@ public class WhiteBoard {
             }
             System.out.println();
         }
-        
         //8. print Febanocci Series by swapping variables
         //Fibonacci Sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55
         int fibSer = 8;
         System.out.println(fibonacciRecurcive(fibSer));
         System.out.println(fibSeq(fibSer));
-
-
         System.out.println("Bla bla bla");
         System.out.println("Ha ha ha");
-
+        System.out.println("Im a truck driver trum trum trum");
     }
 
-    public static int fibonacciRecurcive(int a){
+    public static int fibonacciRecurcive(int a) {
 
-        if(a <= 1) return a;
-        else return fibonacciRecurcive(a -1) + fibonacciRecurcive(a - 2);
+        if (a <= 1) return a;
+        else return fibonacciRecurcive(a - 1) + fibonacciRecurcive(a - 2);
     }
+
     //Fibonacci Sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55
-    public static int fibSeq(int a){
+    public static int fibSeq(int a) {
         int x = 1, y = 0, result = 0;
         for (int i = 0; i < 8; i++) {
-            result = x+y;
+            result = x + y;
             x = y;
             y = result;
         }
